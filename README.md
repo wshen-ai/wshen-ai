@@ -13,7 +13,7 @@
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+SC&weight=600&size=24&duration=3000&pause=1500&color=90EE90&center=true&vCenter=true&width=800&lines=「+韩某一生，从不信命。+」;「+修仙之路，每一步都要走得稳。+」;「+世上没有什么天才，只有一步步走出来的路。+」" />
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+SC&weight=600&size=24&duration=3000&pause=1500&color=90EE90&center=true&vCenter=true&width=800&lines=%E9%9F%A9%E6%9F%90%E4%B8%80%E7%94%9F%EF%BC%8C%E4%BB%8E%E4%B8%8D%E4%BF%A1%E5%91%BD%E3%80%82;%E4%BF%AE%E4%BB%99%E4%B9%8B%E8%B7%AF%EF%BC%8C%E6%AF%8F%E4%B8%80%E6%AD%A5%E9%83%BD%E8%A6%81%E8%B5%B0%E5%BE%97%E7%A8%B3%E3%80%82;%E4%B8%96%E4%B8%8A%E6%B2%A1%E6%9C%89%E5%A4%A9%E6%89%8D%EF%BC%8C%E5%8F%AA%E6%9C%89%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B5%B0%E5%87%BA%E6%9D%A5%E7%9A%84%E8%B7%AF%E3%80%82" />
 
 <br>
 
