@@ -4,7 +4,7 @@
 <!--  韩立 法像背景 —— 你换上自己的图即可                        -->
 <!--  把 banner.png 丢到仓库根目录，取消下面这行注释就行           -->
 <!-- ═══════════════════════════════════════════════════════ -->
-<!-- <img src="banner.png" width="100%" /> -->
+<img src="banner.jpg" width="100%" />
 
 <!-- 临时：绿色修真渐变文字头 -->
 <div style="background:linear-gradient(135deg, #0a2a0a, #1a4a1a, #0d3d0d, #1a5a1a); padding:60px 20px; border-radius:12px;">
