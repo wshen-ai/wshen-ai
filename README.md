@@ -1,87 +1,85 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════ -->
-<!--  韩立 法像背景 —— 你换上自己的图即可                        -->
-<!--  把 banner.png 丢到仓库根目录，取消下面这行注释就行           -->
-<!-- ═══════════════════════════════════════════════════════ -->
-<img src="banner.jpg" width="100%" />
+<!-- ══════════════════ 一 · 法相 · 风雷翅 ══════════════════ -->
 
-<!-- 临时：绿色修真渐变文字头 -->
-<div style="background:linear-gradient(135deg, #0a2a0a, #1a4a1a, #0d3d0d, #1a5a1a); padding:60px 20px; border-radius:12px;">
+<img src="./assets/banner-hanli-windthunder.jpg" width="100%" alt="韩立 · 风雷翅：上古雷鹏骸骨所炼，风遁雷遁双绝" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=40&duration=2000&pause=800&color=7CFF7C&center=true&vCenter=true&width=900&lines=%E2%9A%94%EF%B8%8F+%E4%BF%AE%E4%BB%99%E6%97%A0%E5%B2%81%E6%9C%88;%E2%9A%94%EF%B8%8F+%E4%BB%A3%E7%A0%81%E6%9C%89%E4%B9%BE%E5%9D%A4;%E2%9A%94%EF%B8%8F+Cultivating+in+Silence" />
+<img src="./assets/thunder-divider.svg" width="100%" alt="" />
+
+<!-- ══════════════════ 二 · 结婴异象 ══════════════════ -->
+
+<img src="./assets/nascent-soul-hero.svg" width="100%" alt="韩立结婴 · 元婴已成：四象漩涡汇聚，九重天雷贯顶，丹田灵光大盛" />
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+SC&weight=600&size=24&duration=3000&pause=1500&color=90EE90&center=true&vCenter=true&width=800&lines=%E9%9F%A9%E6%9F%90%E4%B8%80%E7%94%9F%EF%BC%8C%E4%BB%8E%E4%B8%8D%E4%BF%A1%E5%91%BD%E3%80%82;%E4%BF%AE%E4%BB%99%E4%B9%8B%E8%B7%AF%EF%BC%8C%E6%AF%8F%E4%B8%80%E6%AD%A5%E9%83%BD%E8%A6%81%E8%B5%B0%E5%BE%97%E7%A8%B3%E3%80%82;%E4%B8%96%E4%B8%8A%E6%B2%A1%E6%9C%89%E5%A4%A9%E6%89%8D%EF%BC%8C%E5%8F%AA%E6%9C%89%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B5%B0%E5%87%BA%E6%9D%A5%E7%9A%84%E8%B7%AF%E3%80%82" alt="韩某一生，从不信命。" />
+
+<br>
+
+<samp>"Han Li never believed in fate. On the path of cultivation, every step must be steady.
+There are no geniuses — only those who walk the path, step by step."</samp>
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Noto+Serif+SC&weight=600&size=24&duration=3000&pause=1500&color=90EE90&center=true&vCenter=true&width=800&lines=%E9%9F%A9%E6%9F%90%E4%B8%80%E7%94%9F%EF%BC%8C%E4%BB%8E%E4%B8%8D%E4%BF%A1%E5%91%BD%E3%80%82;%E4%BF%AE%E4%BB%99%E4%B9%8B%E8%B7%AF%EF%BC%8C%E6%AF%8F%E4%B8%80%E6%AD%A5%E9%83%BD%E8%A6%81%E8%B5%B0%E5%BE%97%E7%A8%B3%E3%80%82;%E4%B8%96%E4%B8%8A%E6%B2%A1%E6%9C%89%E5%A4%A9%E6%89%8D%EF%BC%8C%E5%8F%AA%E6%9C%89%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B5%B0%E5%87%BA%E6%9D%A5%E7%9A%84%E8%B7%AF%E3%80%82" />
+<samp>独立开发者 · 音频工具 / AI Agent / 本地知识库</samp>
 
-<br>
-
-<samp style="color:#90EE90; font-size:18px;">
-"Han Li never believed in fate. On the path of cultivation, every step must be steady.
- There are no geniuses — only those who walk the path, step by step."
-</samp>
-
-</div>
-
-<br>
-
-<div align="center">
+<br><br>
 
 [![GitHub followers](https://img.shields.io/github/followers/wshen-ai?style=for-the-badge&logo=github&labelColor=0a2a0a&color=228B22)](https://github.com/wshen-ai)
 [![Profile Views](https://komarev.com/ghpvc/?username=wshen-ai&style=for-the-badge&color=228B22&label=PROFILE+VIEWS)](https://github.com/wshen-ai)
 
 </div>
 
-</div>
-
----
+<img src="./assets/thunder-divider.svg" width="100%" alt="" />
 
 <div align="center">
 
-## 🧑‍💻 修仙进度 · Cultivation
+## 修仙境界 · Cultivation Realms
 
-| 境界 | 领域 |
-|:---:|:---|
-| 🔵 **筑基** · Foundation | `Python` `Java` `Shell` `SQL` |
-| 🟣 **金丹** · Golden Core | `PyTorch` `PyQt5` `Demucs` `FFmpeg` |
-| 🟡 **元婴** · Nascent Soul | `AI Agent` `Multi-Machine` `Obsidian RAG` |
-| 🔴 **化神** · Deity Transformation | *...修炼中 · cultivating...* |
+| 境界 · Realm | 所修 · Domains | 道途 · State |
+|:---:|:---|:---:|
+| **筑基** · Foundation | `Python` `Java` `Shell` `SQL` | 已渡 · passed |
+| **金丹** · Golden Core | `PyTorch` `PyQt5` `Demucs` `FFmpeg` | 已渡 · passed |
+| **元婴** · Nascent Soul | `AI Agent` `Multi-Machine` `Obsidian RAG` | **当前 · current** |
+| **化神** · Deity Transformation | *尚在推演 · brewing* | 闭关中 · sealed |
 
-</div>
-
----
-
-<div align="center">
-
-## 📊 道行统计 · Stats
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=wshen-ai&show_icons=true&theme=merko&hide_border=true&bg_color=0a2a0a&title_color=7CFF7C&icon_color=7CFF7C&text_color=c9d1d9&count_private=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wshen-ai&layout=compact&theme=merko&hide_border=true&bg_color=0a2a0a&title_color=7CFF7C&text_color=c9d1d9" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=wshen-ai&theme=merko&hide_border=true&background=0a2a0a&stroke=228B22&ring=228B22&fire=228B22&currStreakLabel=7CFF7C" />
+> 伪灵根结婴，异象为四象漩涡与九重天雷。
+> 境界之上再无捷径——唯以时日换修为。
 
 </div>
 
----
+<img src="./assets/thunder-divider.svg" width="100%" alt="" />
 
 <div align="center">
 
-## 🏗️ 正在炼丹 · Active Projects
+## 道行统计 · Cultivation Stats
 
-| 项目 | 简介 |
-|:---|:---|
-| 🎵 [**conver2flac**](https://github.com/wshen-ai/conver2flac) | AI 人声分离 + 万能音频转换器 · Demucs + PyQt5 |
-| 🤖 **Hermes AI Agent** | 多机智能助手 · 跨平台调度 · 知识库闭环 |
-| 🛠️ **PyInstaller 踩坑录** | Windows DLL 冲突 · c10.dll · 打包工程化 |
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=wshen-ai&show_icons=true&theme=merko&hide_border=true&bg_color=0a2a0a&title_color=7CFF7C&icon_color=7CFF7C&text_color=c9d1d9&count_private=true" alt="GitHub Stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wshen-ai&layout=compact&theme=merko&hide_border=true&bg_color=0a2a0a&title_color=7CFF7C&text_color=c9d1d9" alt="Top Languages" />
+
+<img src="https://streak-stats.demolab.com/?user=wshen-ai&theme=merko&hide_border=true&background=0a2a0a&stroke=228B22&ring=228B22&fire=228B22&currStreakLabel=7CFF7C" alt="Streak" />
 
 </div>
 
----
+<img src="./assets/thunder-divider.svg" width="100%" alt="" />
 
 <div align="center">
 
-## 🛠️ 法器 · Toolbox
+## 正在炼丹 · Active Projects
+
+| 项目 · Project | 简介 · What it does | 状态 · State |
+|:---|:---|:---:|
+| 🎵 [**conver2flac**](https://github.com/wshen-ai/conver2flac) | AI 人声分离 + 万能音频转换器 · Demucs + PyQt5 | 已出世 · live |
+| 🤖 **Hermes AI Agent** | 多机智能助手 · 跨平台调度 · 知识库闭环 | 炼丹中 · cooking |
+| 🛠️ **PyInstaller 踩坑录** | Windows DLL 冲突 · c10.dll · 打包工程化 | 载册中 · writing |
+
+</div>
+
+<img src="./assets/thunder-divider.svg" width="100%" alt="" />
+
+<div align="center">
+
+## 法器 · Toolbox
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=7CFF7C)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -95,29 +93,27 @@
 
 </div>
 
----
+<img src="./assets/thunder-divider.svg" width="100%" alt="" />
 
 <div align="center">
 
-## 📬 结交道友 · Connect
+## 结交道友 · Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-wshen--ai-228B22?style=for-the-badge&logo=github)](https://github.com/wshen-ai)
 [![Email](https://img.shields.io/badge/Email-wshen.ai%40gmail.com-EA4335?style=for-the-badge&logo=gmail)](mailto:wshen.ai@gmail.com)
 
 </div>
 
-<br>
+<img src="./assets/thunder-divider.svg" width="100%" alt="" />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/wshen-ai/wshen-ai/output/github-contribution-grid-snake-dark.svg" />
-</div>
+
+<img src="https://raw.githubusercontent.com/wshen-ai/wshen-ai/output/github-contribution-grid-snake-dark.svg" alt="贡献之道 · Contribution Snake" />
 
 <br>
 
-<div align="center">
-  <samp style="color:#90EE90;">
-    ⚔️ 修仙无岁月，代码有乾坤 ⚔️
-    <br>
-    Time flows differently in cultivation — so does it in code.
-  </samp>
+<samp>⚔️ 修仙无岁月，代码有乾坤 ⚔️</samp>
+
+<samp>Time flows differently in cultivation — so does it in code.</samp>
+
 </div>

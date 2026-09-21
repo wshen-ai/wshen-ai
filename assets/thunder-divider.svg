@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 22" width="1120" height="22"
+     role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="rule" x1="0" x2="1">
+      <stop offset="0%"   stop-color="#7CFF7C" stop-opacity="0"/>
+      <stop offset="18%"  stop-color="#7CFF7C" stop-opacity=".34"/>
+      <stop offset="50%"  stop-color="#7CFF7C" stop-opacity=".58"/>
+      <stop offset="82%"  stop-color="#7CFF7C" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#7CFF7C" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" x2="1">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#DEFFD6" stop-opacity=".95"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dGlow" x="-80%" y="-300%" width="260%" height="700%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="10.5" width="1120" height="1" fill="url(#rule)"/>
+
+  <!-- 灵气拂过 -->
+  <rect x="-190" y="8.5" width="190" height="5" fill="url(#sweep)" filter="url(#dGlow)" opacity=".85">
+    <animate attributeName="x" values="-190;1310" dur="7s" repeatCount="indefinite"
+             calcMode="spline" keyTimes="0;1" keySplines=".45 0 .55 1"/>
+  </rect>
+
+  <!-- 结丹印记 -->
+  <g transform="translate(560,11)">
+    <rect x="-4" y="-4" width="8" height="8" fill="#0A1D14" stroke="#7CFF7C" stroke-width="1.1"
+          transform="rotate(45)" opacity=".9"/>
+    <rect x="-3" y="-3" width="6" height="6" fill="#7CFF7C" transform="rotate(45)" opacity="0">
+      <animate attributeName="opacity" values="0;0;.9;0;0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+    <circle r="7" fill="none" stroke="#7CFF7C" stroke-width=".8" opacity="0">
+      <animate attributeName="opacity" values="0;.45;0" dur="3.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="scale" values=".6;1.9" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g fill="#7CFF7C" opacity=".4">
+    <rect x="268" y="9.6" width="2.4" height="2.8"/>
+    <rect x="850" y="9.6" width="2.4" height="2.8"/>
+  </g>
+</svg>

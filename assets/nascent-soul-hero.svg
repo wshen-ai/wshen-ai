@@ -1,0 +1,404 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1120 400" width="1120" height="400"
+     role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">韩立结婴 · 元婴已成</title>
+  <desc id="heroDesc">伪灵根结婴异象：乌云汇聚成四个彩色漩涡，九重天雷贯顶，丹田灵光大盛，莲台之上元婴终成。</desc>
+
+  <defs>
+    <radialGradient id="sky" cx="75%" cy="72%" r="92%">
+      <stop offset="0%"   stop-color="#14361F"/>
+      <stop offset="38%"  stop-color="#0A1D14"/>
+      <stop offset="100%" stop-color="#020605"/>
+    </radialGradient>
+
+    <linearGradient id="ceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#173C25" stop-opacity=".92"/>
+      <stop offset="55%"  stop-color="#0E2216" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#0A1D14" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="soul">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="24%"  stop-color="#EDFFCB" stop-opacity=".92"/>
+      <stop offset="56%"  stop-color="#7CFF7C" stop-opacity=".32"/>
+      <stop offset="100%" stop-color="#7CFF7C" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="gold">
+      <stop offset="0%"   stop-color="#FFFBE8" stop-opacity="1"/>
+      <stop offset="34%"  stop-color="#F5CE7E" stop-opacity=".72"/>
+      <stop offset="70%"  stop-color="#E8C46A" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#E8C46A" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="beam" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%"   stop-color="#F2FFD9" stop-opacity=".95"/>
+      <stop offset="38%"  stop-color="#7CFF7C" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#EAF9C2" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="titleInk" x1="0" y1="0" x2=".85" y2="1">
+      <stop offset="0%"   stop-color="#E6FFDC"/>
+      <stop offset="40%"  stop-color="#7CFF7C"/>
+      <stop offset="100%" stop-color="#E8C46A"/>
+    </linearGradient>
+
+    <linearGradient id="hair" x1="0" x2="1">
+      <stop offset="0%"   stop-color="#7CFF7C" stop-opacity=".9"/>
+      <stop offset="55%"  stop-color="#7CFF7C" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#7CFF7C" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0" x2="1">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="45%"  stop-color="#FFFFFF" stop-opacity=".65"/>
+      <stop offset="55%"  stop-color="#FFF6DC" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="petalInk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#143626"/>
+      <stop offset="58%"  stop-color="#07150D"/>
+      <stop offset="100%" stop-color="#030A06"/>
+    </linearGradient>
+
+    <radialGradient id="cloudDark">
+      <stop offset="0%"   stop-color="#12321F" stop-opacity="1"/>
+      <stop offset="62%"  stop-color="#091A11" stop-opacity=".82"/>
+      <stop offset="100%" stop-color="#091A11" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blurXL" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="blurL"  x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="13"/></filter>
+    <filter id="blurM"  x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="blurS"  x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="rimGlow" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" seed="11"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+
+    <g id="vortex">
+      <circle r="46" fill="currentColor" opacity=".16" filter="url(#blurL)"/>
+      <g fill="none" stroke="currentColor">
+        <ellipse rx="55" ry="17" stroke-width="1" opacity=".28" transform="rotate(-24)"/>
+        <ellipse rx="42" ry="12.5" stroke-width=".9" opacity=".22" transform="rotate(38)"/>
+        <ellipse rx="52" ry="15" stroke-width="2.1" opacity=".62" transform="rotate(-6)"
+                 stroke-dasharray="86 260" stroke-linecap="round">
+          <animate attributeName="stroke-dashoffset" from="0" to="-346" dur="4.5s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse rx="46" ry="19" stroke-width="1.7" opacity=".48" transform="rotate(62)"
+                 stroke-dasharray="62 250" stroke-linecap="round">
+          <animate attributeName="stroke-dashoffset" from="0" to="312" dur="6s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+      <g fill="currentColor">
+        <circle cx="44" cy="-14" r="2.6" opacity=".85"/>
+        <circle cx="-30" cy="10"  r="1.7" opacity=".5"/>
+      </g>
+    </g>
+
+    <clipPath id="h1clip">
+      <text x="64" y="142" font-size="66" letter-spacing="10"
+            font-family="'Songti SC','STSong','Noto Serif SC','Source Han Serif SC','SimSun',serif">元婴已成</text>
+    </clipPath>
+  </defs>
+
+  <!-- 天幕 -->
+  <rect width="1120" height="400" fill="url(#sky)"/>
+  <rect width="1120" height="400" fill="#FFFFFF" filter="url(#paper)" opacity=".04"/>
+
+  <g fill="#DEFFD6">
+    <circle cx="628" cy="72"  r="1.3" opacity="0"><animate attributeName="opacity" values="0;.62;0" dur="5.5s" begin="0s"   repeatCount="indefinite"/></circle>
+    <circle cx="684" cy="196" r="1"   opacity="0"><animate attributeName="opacity" values="0;.5;0"  dur="7.1s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="726" cy="52"  r="1.6" opacity="0"><animate attributeName="opacity" values="0;.72;0" dur="6.3s" begin="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="766" cy="238" r="1.1" opacity="0"><animate attributeName="opacity" values="0;.45;0" dur="8.2s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="806" cy="126" r="1.4" opacity="0"><animate attributeName="opacity" values="0;.6;0"  dur="5.9s" begin="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="848" cy="66"  r="1.2" opacity="0"><animate attributeName="opacity" values="0;.55;0" dur="7.6s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="892" cy="212" r="1.5" opacity="0"><animate attributeName="opacity" values="0;.66;0" dur="6.7s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="936" cy="44"  r="1.1" opacity="0"><animate attributeName="opacity" values="0;.5;0"  dur="8.8s" begin="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="978" cy="184" r="1.3" opacity="0"><animate attributeName="opacity" values="0;.58;0" dur="5.2s" begin="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1024" cy="88" r="1"   opacity="0"><animate attributeName="opacity" values="0;.42;0" dur="7.8s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1066" cy="216" r="1.4" opacity="0"><animate attributeName="opacity" values="0;.62;0" dur="6.1s" begin="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1100" cy="120" r="1.2" opacity="0"><animate attributeName="opacity" values="0;.48;0" dur="9.1s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="132" r="1.7" fill="#F5CE7E" opacity="0"><animate attributeName="opacity" values="0;.5;0" dur="6.4s" begin="5.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1094" cy="70" r="1.5" fill="#F5CE7E" opacity="0"><animate attributeName="opacity" values="0;.45;0" dur="7.3s" begin="3.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- 压顶雷云 -->
+  <rect x="0" y="0" width="1120" height="92" fill="url(#ceil)" opacity=".7"/>
+  <g filter="url(#blurL)">
+    <ellipse cx="600"  cy="4"   rx="250" ry="58" fill="url(#cloudDark)"/>
+    <ellipse cx="870"  cy="-12" rx="290" ry="66" fill="url(#cloudDark)"/>
+    <ellipse cx="1090" cy="10"  rx="220" ry="54" fill="url(#cloudDark)"/>
+  </g>
+  <g fill="none" stroke="#8FFFB0" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0;.34;.06;.4;.1;0" keyTimes="0;0.42;0.45;0.48;0.51;0.56;1" dur="10s" repeatCount="indefinite"/>
+    <path d="M352 22 Q 600 66 852 24" stroke-width="1.6"/>
+    <path d="M700 8 Q 880 44 1112 12" stroke-width="1.3"/>
+  </g>
+  <ellipse cx="850" cy="34" rx="300" ry="42" fill="#7CFF7C" filter="url(#blurXL)" opacity="0">
+    <animate attributeName="opacity" values="0;0;.2;.04;.24;0;0" keyTimes="0;0.42;0.45;0.48;0.51;0.56;1" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- 四象漩涡 -->
+  <g>
+    <g transform="translate(622,118)">
+      <g opacity=".6">
+        <animate attributeName="opacity" values=".6;.6;1;.92;.6;.6" keyTimes="0;0.22;0.44;0.62;0.78;1" dur="10s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0;88;340;360" keyTimes="0;0.24;0.62;1" calcMode="spline" keySplines=".35 0 .5 1;.3 0 .35 1;.4 0 1 1" dur="10s" repeatCount="indefinite"/>
+          <g><animateTransform attributeName="transform" type="scale" values="1;1;.5;.5;1" keyTimes="0;0.22;0.45;0.68;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.3 0 .2 1" dur="10s" repeatCount="indefinite"/>
+            <use xlink:href="#vortex" href="#vortex" color="#7CFF7C"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(750,86)">
+      <g opacity=".55">
+        <animate attributeName="opacity" values=".55;.55;.95;.88;.55;.55" keyTimes="0;0.24;0.46;0.62;0.8;1" dur="10s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0;-78;-320;-360" keyTimes="0;0.26;0.6;1" calcMode="spline" keySplines=".35 0 .5 1;.3 0 .35 1;.4 0 1 1" dur="10s" repeatCount="indefinite"/>
+          <g><animateTransform attributeName="transform" type="scale" values="1;1;.48;.48;1" keyTimes="0;0.24;0.46;0.68;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.3 0 .2 1" dur="10s" repeatCount="indefinite"/>
+            <use xlink:href="#vortex" href="#vortex" color="#F0C46A"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(952,86)">
+      <g opacity=".55">
+        <animate attributeName="opacity" values=".55;.55;.95;.88;.55;.55" keyTimes="0;0.23;0.45;0.61;0.79;1" dur="10s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0;74;318;360" keyTimes="0;0.25;0.61;1" calcMode="spline" keySplines=".35 0 .5 1;.3 0 .35 1;.4 0 1 1" dur="10s" repeatCount="indefinite"/>
+          <g><animateTransform attributeName="transform" type="scale" values="1;1;.48;.48;1" keyTimes="0;0.23;0.45;0.68;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.3 0 .2 1" dur="10s" repeatCount="indefinite"/>
+            <use xlink:href="#vortex" href="#vortex" color="#5FC9D8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(1068,124)">
+      <g opacity=".55">
+        <animate attributeName="opacity" values=".55;.55;.95;.9;.55;.55" keyTimes="0;0.25;0.47;0.63;0.81;1" dur="10s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="rotate" values="0;-86;-338;-360" keyTimes="0;0.27;0.63;1" calcMode="spline" keySplines=".35 0 .5 1;.3 0 .35 1;.4 0 1 1" dur="10s" repeatCount="indefinite"/>
+          <g><animateTransform attributeName="transform" type="scale" values="1;1;.52;.52;1" keyTimes="0;0.25;0.47;0.68;1" calcMode="spline" keySplines="0 0 1 1;.4 0 .2 1;0 0 1 1;.3 0 .2 1" dur="10s" repeatCount="indefinite"/>
+            <use xlink:href="#vortex" href="#vortex" color="#9B7FE0"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- 灵气上升 -->
+  <g stroke="#9BFFB8" stroke-width="1.6" stroke-linecap="round" fill="none">
+    <line x1="778" y1="330" x2="778" y2="316" opacity="0">
+      <animate attributeName="y1" values="336;124" dur="5.2s" begin="0s"   repeatCount="indefinite"/>
+      <animate attributeName="y2" values="322;110" dur="5.2s" begin="0s"   repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.8;.6;0;0" keyTimes="0;.18;.6;.92;1" dur="5.2s" begin="0s" repeatCount="indefinite"/>
+    </line>
+    <line x1="806" y1="330" x2="806" y2="316" opacity="0">
+      <animate attributeName="y1" values="342;116" dur="4.4s" begin="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="328;102" dur="4.4s" begin="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.62;.5;0;0" keyTimes="0;.18;.6;.92;1" dur="4.4s" begin="1.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="886" y1="330" x2="886" y2="316" opacity="0">
+      <animate attributeName="y1" values="340;120" dur="4.9s" begin="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="326;106" dur="4.9s" begin="2.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.72;.55;0;0" keyTimes="0;.18;.6;.92;1" dur="4.9s" begin="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="914" y1="330" x2="914" y2="316" opacity="0">
+      <animate attributeName="y1" values="344;128" dur="5.6s" begin="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="330;114" dur="5.6s" begin="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.58;.45;0;0" keyTimes="0;.18;.6;.92;1" dur="5.6s" begin="3.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="846" y1="330" x2="846" y2="316" stroke="#F5CE7E" stroke-width="2" opacity="0">
+      <animate attributeName="y1" values="326;106" dur="3.9s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="312;92"  dur="3.9s" begin="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.85;.6;0;0" keyTimes="0;.18;.6;.92;1" dur="3.9s" begin="0.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="760" y1="330" x2="760" y2="316" opacity="0">
+      <animate attributeName="y1" values="348;136" dur="6.1s" begin="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="334;122" dur="6.1s" begin="4.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.5;.38;0;0" keyTimes="0;.18;.6;.92;1" dur="6.1s" begin="4.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="932" y1="330" x2="932" y2="316" opacity="0">
+      <animate attributeName="y1" values="350;140" dur="5.8s" begin="2.9s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="336;126" dur="5.8s" begin="2.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.5;.38;0;0" keyTimes="0;.18;.6;.92;1" dur="5.8s" begin="2.9s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- 冲天光柱 -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;.95;.5;.34;0" keyTimes="0;0.53;0.60;0.72;0.88;1" dur="10s" repeatCount="indefinite"/>
+    <polygon points="826,330 866,330 852,4 840,4" fill="url(#beam)" filter="url(#blurM)"/>
+    <polygon points="838,330 854,330 849,4 843,4" fill="#F4FFE4" opacity=".5" filter="url(#blurS)"/>
+  </g>
+
+  <!-- 成婴爆光 -->
+  <g transform="translate(846,274)" opacity="0">
+    <animate attributeName="opacity" values="0;0;.9;.55;.3;0" keyTimes="0;0.54;0.60;0.70;0.86;1" dur="10s" repeatCount="indefinite"/>
+    <g><animateTransform attributeName="transform" type="scale" values=".25;.25;1.5;1.5" keyTimes="0;0.55;0.66;1" calcMode="spline" keySplines="0 0 1 1;.2 .9 .3 1;0 0 1 1" dur="10s" repeatCount="indefinite"/>
+      <circle r="130" fill="url(#soul)" filter="url(#blurM)"/>
+    </g>
+  </g>
+
+  <!-- 落脚云海 -->
+  <g filter="url(#blurXL)">
+    <ellipse cx="150"  cy="414" rx="350" ry="78" fill="url(#cloudDark)"/>
+    <ellipse cx="700"  cy="428" rx="390" ry="88" fill="url(#cloudDark)"/>
+    <ellipse cx="1090" cy="410" rx="310" ry="72" fill="url(#cloudDark)"/>
+  </g>
+  <g fill="none" stroke="#7CFF7C" stroke-linecap="round" opacity=".2">
+    <path d="M120 360 Q 420 344 700 358" stroke-width="1.2"/>
+    <path d="M760 354 Q 950 340 1112 352" stroke-width="1"/>
+  </g>
+
+  <!-- 九重天雷 -->
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;1;0;0" keyTimes="0;0.43;0.452;0.472;0.492;0.522;1" dur="10s" repeatCount="indefinite"/>
+      <path d="M846 26 L836 66 L852 84 L830 112 L848 130 L832 150 L846 170 L836 200 L846 226 L840 244"
+            stroke="#C8FFD8" stroke-width="10" opacity=".28" filter="url(#blurM)"/>
+      <path d="M846 26 L836 66 L852 84 L830 112 L848 130 L832 150 L846 170 L836 200 L846 226 L840 244"
+            stroke="#FFFFFF" stroke-width="2.2" filter="url(#rimGlow)"/>
+      <path d="M846 26 L836 66 L852 84 L830 112 L848 130 L832 150 L846 170 L836 200 L846 226 L840 244"
+            stroke="#EAF9C2" stroke-width="5.4" opacity=".2" filter="url(#blurS)"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;1;0;0" keyTimes="0;0.455;0.474;0.494;0.514;0.545;1" dur="10s" repeatCount="indefinite"/>
+      <path d="M688 34 L704 68 L690 84 L710 110 L700 130" stroke="#C8FFD8" stroke-width="6.5" opacity=".26" filter="url(#blurM)"/>
+      <path d="M688 34 L704 68 L690 84 L710 110 L700 130" stroke="#FFFFFF" stroke-width="1.5" filter="url(#rimGlow)"/>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;1;0;0" keyTimes="0;0.492;0.510;0.528;0.548;0.578;1" dur="10s" repeatCount="indefinite"/>
+      <path d="M1004 38 L988 70 L1002 86 L982 112 L994 128" stroke="#C8FFD8" stroke-width="6.5" opacity=".26" filter="url(#blurM)"/>
+      <path d="M1004 38 L988 70 L1002 86 L982 112 L994 128" stroke="#FFFFFF" stroke-width="1.5" filter="url(#rimGlow)"/>
+    </g>
+  </g>
+  <rect width="1120" height="400" fill="#E8FFE0" opacity="0">
+    <animate attributeName="opacity" values="0;0;.09;0;.085;0;0" keyTimes="0;0.43;0.452;0.472;0.492;0.522;1" dur="10s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- 地面法阵 -->
+  <g fill="none" stroke="#7CFF7C" opacity=".32">
+    <ellipse cx="846" cy="376" rx="150" ry="27" stroke-width="1" stroke-dasharray="7 11">
+      <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="3.2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="846" cy="376" rx="108" ry="19" stroke-width="1.1" stroke-dasharray="4 9" opacity=".85">
+      <animate attributeName="stroke-dashoffset" from="0" to="26" dur="2.4s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- 莲台 · 元婴 -->
+  <g transform="translate(846,348) scale(1.28)">
+    <ellipse cx="0" cy="-38" rx="124" ry="94" fill="#7CFF7C" opacity=".13" filter="url(#blurL)">
+      <animate attributeName="opacity" values=".11;.11;.4;.24;.15;.11" keyTimes="0;0.5;0.62;0.76;0.9;1" dur="10s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <path d="M-74 0 C-74 14 -39 22 0 22 C39 22 74 14 74 0 Z"
+          fill="url(#petalInk)" stroke="#7CFF7C" stroke-width=".8" opacity=".92"/>
+
+    <g transform="scale(1.9,.5)" fill="url(#petalInk)" stroke="#7CFF7C" stroke-width=".5" opacity=".95">
+      <path d="M0 0C-13 -16.7 -7.2 -36.1 0 -44C7.2 -36.1 13 -16.7 0 0Z" transform="rotate(-98)"/>
+      <path d="M0 0C-13 -16.7 -7.2 -36.1 0 -44C7.2 -36.1 13 -16.7 0 0Z" transform="rotate(98)"/>
+      <path d="M0 0C-14 -18.2 -7.7 -39.4 0 -48C7.7 -39.4 14 -18.2 0 0Z" transform="rotate(-68)"/>
+      <path d="M0 0C-14 -18.2 -7.7 -39.4 0 -48C7.7 -39.4 14 -18.2 0 0Z" transform="rotate(68)"/>
+      <path d="M0 0C-16 -22 -8.8 -47.6 0 -58C8.8 -47.6 16 -22 0 0Z" transform="rotate(-34)"/>
+      <path d="M0 0C-16 -22 -8.8 -47.6 0 -58C8.8 -47.6 16 -22 0 0Z" transform="rotate(34)"/>
+      <path d="M0 0C-17.5 -24.3 -9.6 -52.5 0 -64C9.6 -52.5 17.5 -24.3 0 0Z"/>
+    </g>
+
+    <g transform="translate(0,-4) scale(1.35,.5)" fill="url(#petalInk)" stroke="#7CFF7C" stroke-width=".6" opacity=".95">
+      <path d="M0 0C-12 -15.6 -6.6 -33.6 0 -41C6.6 -33.6 12 -15.6 0 0Z" transform="rotate(-66)"/>
+      <path d="M0 0C-12 -15.6 -6.6 -33.6 0 -41C6.6 -33.6 12 -15.6 0 0Z" transform="rotate(66)"/>
+      <path d="M0 0C-13.5 -17.5 -7.4 -37.7 0 -46C7.4 -37.7 13.5 -17.5 0 0Z" transform="rotate(-32)"/>
+      <path d="M0 0C-13.5 -17.5 -7.4 -37.7 0 -46C7.4 -37.7 13.5 -17.5 0 0Z" transform="rotate(32)"/>
+      <path d="M0 0C-15 -19.4 -8.2 -41.8 0 -51C8.2 -41.8 15 -19.4 0 0Z"/>
+    </g>
+
+    <g transform="translate(0,-58)">
+      <g fill="none" stroke="#E8C46A" stroke-width="1" opacity=".5">
+        <ellipse rx="42" ry="13.5" transform="rotate(-22)" stroke-dasharray="5 8">
+          <animate attributeName="stroke-dashoffset" from="0" to="-39" dur="3.4s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse rx="32" ry="10.5" transform="rotate(26)" stroke-dasharray="3 7" stroke="#7CFF7C">
+          <animate attributeName="stroke-dashoffset" from="0" to="30" dur="2.6s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+      <circle r="26" fill="url(#soul)" opacity=".55">
+        <animate attributeName="opacity" values=".42;.42;1;.8;.5;.42" keyTimes="0;0.5;0.62;0.76;0.9;1" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <g><animateTransform attributeName="transform" type="scale" values=".7;.7;1.5;1.14;1" keyTimes="0;0.5;0.62;0.78;1" calcMode="spline" keySplines="0 0 1 1;.2 .9 .3 1;.4 0 .6 1;.3 0 .4 1" dur="10s" repeatCount="indefinite"/>
+        <circle r="17" fill="url(#gold)" filter="url(#blurM)"/>
+      </g>
+      <circle r="5.6" fill="#FFFFFF">
+        <animate attributeName="r" values="3.4;3.4;7;4.8;3.4" keyTimes="0;0.5;0.62;0.78;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".72;.72;1;.9;.72" keyTimes="0;0.5;0.62;0.78;1" dur="10s" repeatCount="indefinite"/>
+      </circle>
+
+      <g fill="none" stroke="#D8FFE6" stroke-width="1.3">
+        <ellipse rx="46" ry="16" opacity="0">
+          <animate attributeName="opacity" values="0;0;.85;0;0" keyTimes="0;0.57;0.60;0.72;1" dur="10s" repeatCount="indefinite"/>
+          <animateTransform attributeName="transform" type="scale" values=".5;.5;3.4;3.4" keyTimes="0;0.57;0.74;1" dur="10s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse rx="46" ry="16" opacity="0">
+          <animate attributeName="opacity" values="0;0;.8;0;0" keyTimes="0;0.60;0.63;0.74;1" dur="10s" repeatCount="indefinite"/>
+          <animateTransform attributeName="transform" type="scale" values=".5;.5;3.1;3.1" keyTimes="0;0.60;0.76;1" dur="10s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse rx="46" ry="16" opacity="0">
+          <animate attributeName="opacity" values="0;0;.75;0;0" keyTimes="0;0.63;0.66;0.77;1" dur="10s" repeatCount="indefinite"/>
+          <animateTransform attributeName="transform" type="scale" values=".5;.5;2.8;2.8" keyTimes="0;0.63;0.79;1" dur="10s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+    </g>
+  </g>
+
+  <!-- 文案 · 左 -->
+  <g>
+    <text x="64" y="68" font-size="13" letter-spacing="3.6" fill="#7CFF7C" opacity=".8"
+          font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif">凡人修仙传 · 结婴纪</text>
+
+    <text x="64" y="142" font-size="66" letter-spacing="10" fill="#7CFF7C" opacity=".3"
+          filter="url(#blurM)"
+          font-family="'Songti SC','STSong','Noto Serif SC','Source Han Serif SC','SimSun',serif">元婴已成</text>
+    <text x="64" y="142" font-size="66" letter-spacing="10" fill="url(#titleInk)"
+          font-family="'Songti SC','STSong','Noto Serif SC','Source Han Serif SC','SimSun',serif">元婴已成</text>
+    <g clip-path="url(#h1clip)">
+      <rect x="-260" y="70" width="190" height="100" fill="url(#sheen)" opacity="0">
+        <animate attributeName="x" values="-260;-260;470;470" keyTimes="0;0.50;0.69;1" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0;.9;.9;0;0" keyTimes="0;0.50;0.535;0.645;0.675;1" dur="10s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <text x="64" y="178" font-size="17" letter-spacing="4.4" fill="#C9D6D2" opacity=".85"
+          font-family="'SF Mono','Consolas','JetBrains Mono',monospace">NASCENT SOUL · 元婴期</text>
+
+    <line x1="64" y1="206" x2="420" y2="206" stroke="url(#hair)" stroke-width="1"/>
+    <rect x="64" y="204" width="46" height="4" fill="#7CFF7C" opacity="0" filter="url(#blurS)">
+      <animate attributeName="x" values="64;420;420" keyTimes="0;0.72;1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;.7;.7;0;0" keyTimes="0;0.40;0.44;0.70;0.74;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="64" y="250" font-size="16.5" fill="#BBD3C7"
+          font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">天资平庸，伪灵根入道，无人看好。</text>
+    <text x="64" y="280" font-size="16.5" fill="#BBD3C7"
+          font-family="'Kaiti SC','STKaiti','KaiTi','Noto Serif SC',serif">二百一十七载，步步为营，元婴终成。</text>
+  </g>
+
+  <!-- 落款 · 朱砂印 -->
+  <g transform="translate(64,320)" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;.86;1" keyTimes="0;0.58;0.66;0.78;0.9;1" dur="10s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1.35;1.35;1;1" keyTimes="0;0.58;0.66;1" calcMode="spline" keySplines="0 0 1 1;.2 .9 .3 1;0 0 1 1" dur="10s" repeatCount="indefinite"/>
+      <rect width="42" height="42" rx="3.5" fill="#A8382A"/>
+      <rect x="3.5" y="3.5" width="35" height="35" rx="1.6" fill="none" stroke="#F7E9DC" stroke-width="1.1" opacity=".85"/>
+      <text x="21" y="18.5" text-anchor="middle" font-size="15" fill="#F7E9DC"
+            font-family="'Songti SC','STSong','SimSun',serif">元</text>
+      <text x="21" y="36" text-anchor="middle" font-size="15" fill="#F7E9DC"
+            font-family="'Songti SC','STSong','SimSun',serif">婴</text>
+    </g>
+  </g>
+</svg>
